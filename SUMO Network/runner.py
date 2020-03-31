@@ -221,6 +221,6 @@ if __name__ == "__main__":
 
     # this is the normal way of using traci. sumo is started as a
     # subprocess and then the python script connects and runs
-    traci.start([sumoBinary, '-c', 'run.sumocfg', '--step-length', '0.011', '--link-output', 'C:\\Users\\dalug\\Desktop\\Custom Network\\log.txt'])
+    traci.start([sumoBinary, '-c', 'run.sumocfg', '--step-length', '0.011'])
 
     run()
